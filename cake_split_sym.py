@@ -2,11 +2,13 @@
 """
 Created on Mon Sep 25 23:10:45 2023
 
-@author: John
+@author: John Arul
 
 google challenge split cake into equal parts.
 
-extract number of full identical substrings
+Extract number of full identical substrings
+
+The solution is based on the symmetry of the given string. 
 
 """
 
@@ -25,7 +27,6 @@ def shift_compare(s,n):
 
 def solution(s):
     
-    # 
     for i in range(1,len(s)):
          
         #if i devides len(s)
@@ -37,7 +38,7 @@ def solution(s):
     return 1
         
         
-          
+# Some tests          
 #s="abcdabcdabcd"
 s="abccbaabccba"
 #s='abcabcabcabcabc'
