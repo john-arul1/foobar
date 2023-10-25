@@ -17,5 +17,6 @@ v(x,1)=(x*(x+1)/2,y=1)
 To this when x=1, in the y direction we need to add the sequence 1,2,3,.. to get the required numbers.
 when x= 2, in the ydirection we need to add the sequence 2,3,4...to get the required numbers.
 
-When y=4, v(1,4) = v(1,1)+ x+(x+1)+(x+2)    3 terms    
-                 = v(x,1)+ (y-1)*x+ k*(k+1)/2  where k=y-2  
+When y=4, v(1,4) = v(1,1)+ x+(x+1)+(x+2)    3 terms   = v(1,1)+ 3*x + 1+2 
+generalising,      
+             v(x,y)    = v(x,1)+ (y-1)*x+ k*(k+1)/2  where k=y-2  
